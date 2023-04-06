@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3514E4145A2FF06FCAC07ED2 /* Pods_AutoServiceAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 544762FA2BC03476D5569EEF /* Pods_AutoServiceAppTests.framework */; };
+		7585780BAB6E5B546411B6D7 /* Pods_AutoServiceApp_AutoServiceAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8470E9B1CD72DCDFD37A9A83 /* Pods_AutoServiceApp_AutoServiceAppUITests.framework */; };
+		C107DD529040049DA0E7FDD6 /* Pods_AutoServiceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B2B0E10B2794F473D46F90A /* Pods_AutoServiceApp.framework */; };
 		FBB521EF29DEFD5200362267 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB521EE29DEFD5200362267 /* AppDelegate.swift */; };
 		FBB521F129DEFD5200362267 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB521F029DEFD5200362267 /* SceneDelegate.swift */; };
-		FBB521F329DEFD5200362267 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB521F229DEFD5200362267 /* ViewController.swift */; };
-		FBB521F629DEFD5200362267 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB521F429DEFD5200362267 /* Main.storyboard */; };
+		FBB521F329DEFD5200362267 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB521F229DEFD5200362267 /* AuthViewController.swift */; };
 		FBB521F929DEFD5200362267 /* AutoServiceApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBB521F729DEFD5200362267 /* AutoServiceApp.xcdatamodeld */; };
 		FBB521FB29DEFD5600362267 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBB521FA29DEFD5600362267 /* Assets.xcassets */; };
 		FBB521FE29DEFD5600362267 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBB521FC29DEFD5600362267 /* LaunchScreen.storyboard */; };
 		FBB5220929DEFD5700362267 /* AutoServiceAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB5220829DEFD5700362267 /* AutoServiceAppTests.swift */; };
 		FBB5221329DEFD5700362267 /* AutoServiceAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB5221229DEFD5700362267 /* AutoServiceAppUITests.swift */; };
 		FBB5221529DEFD5700362267 /* AutoServiceAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB5221429DEFD5700362267 /* AutoServiceAppUITestsLaunchTests.swift */; };
+		FBB5222229DF10B800362267 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBB5222129DF10B800362267 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,11 +40,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B2B0E10B2794F473D46F90A /* Pods_AutoServiceApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoServiceApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		213D1DFF7AA80ECDEBC3C212 /* Pods-AutoServiceApp-AutoServiceAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoServiceApp-AutoServiceAppUITests.debug.xcconfig"; path = "Target Support Files/Pods-AutoServiceApp-AutoServiceAppUITests/Pods-AutoServiceApp-AutoServiceAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		544762FA2BC03476D5569EEF /* Pods_AutoServiceAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoServiceAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8470E9B1CD72DCDFD37A9A83 /* Pods_AutoServiceApp_AutoServiceAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AutoServiceApp_AutoServiceAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9908331AE420E7279775B8F5 /* Pods-AutoServiceApp-AutoServiceAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoServiceApp-AutoServiceAppUITests.release.xcconfig"; path = "Target Support Files/Pods-AutoServiceApp-AutoServiceAppUITests/Pods-AutoServiceApp-AutoServiceAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B2831F06393271B966391B54 /* Pods-AutoServiceAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoServiceAppTests.release.xcconfig"; path = "Target Support Files/Pods-AutoServiceAppTests/Pods-AutoServiceAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		C26F07AFF66B281772ABE3B3 /* Pods-AutoServiceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoServiceApp.release.xcconfig"; path = "Target Support Files/Pods-AutoServiceApp/Pods-AutoServiceApp.release.xcconfig"; sourceTree = "<group>"; };
+		CEFE67E19DB4E007DE44E0F3 /* Pods-AutoServiceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoServiceApp.debug.xcconfig"; path = "Target Support Files/Pods-AutoServiceApp/Pods-AutoServiceApp.debug.xcconfig"; sourceTree = "<group>"; };
 		FBB521EB29DEFD5200362267 /* AutoServiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoServiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB521EE29DEFD5200362267 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBB521F029DEFD5200362267 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FBB521F229DEFD5200362267 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FBB521F529DEFD5200362267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBB521F229DEFD5200362267 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		FBB521F829DEFD5200362267 /* AutoServiceApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AutoServiceApp.xcdatamodel; sourceTree = "<group>"; };
 		FBB521FA29DEFD5600362267 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBB521FD29DEFD5600362267 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		FBB5220E29DEFD5700362267 /* AutoServiceAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoServiceAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB5221229DEFD5700362267 /* AutoServiceAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoServiceAppUITests.swift; sourceTree = "<group>"; };
 		FBB5221429DEFD5700362267 /* AutoServiceAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoServiceAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FBB5222129DF10B800362267 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		FEEFC8BD9510DA13BCD584F1 /* Pods-AutoServiceAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AutoServiceAppTests.debug.xcconfig"; path = "Target Support Files/Pods-AutoServiceAppTests/Pods-AutoServiceAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C107DD529040049DA0E7FDD6 /* Pods_AutoServiceApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3514E4145A2FF06FCAC07ED2 /* Pods_AutoServiceAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7585780BAB6E5B546411B6D7 /* Pods_AutoServiceApp_AutoServiceAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5ADA45B221A3D387CD32748E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CEFE67E19DB4E007DE44E0F3 /* Pods-AutoServiceApp.debug.xcconfig */,
+				C26F07AFF66B281772ABE3B3 /* Pods-AutoServiceApp.release.xcconfig */,
+				213D1DFF7AA80ECDEBC3C212 /* Pods-AutoServiceApp-AutoServiceAppUITests.debug.xcconfig */,
+				9908331AE420E7279775B8F5 /* Pods-AutoServiceApp-AutoServiceAppUITests.release.xcconfig */,
+				FEEFC8BD9510DA13BCD584F1 /* Pods-AutoServiceAppTests.debug.xcconfig */,
+				B2831F06393271B966391B54 /* Pods-AutoServiceAppTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6EB6CD53992515760D715B50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B2B0E10B2794F473D46F90A /* Pods_AutoServiceApp.framework */,
+				8470E9B1CD72DCDFD37A9A83 /* Pods_AutoServiceApp_AutoServiceAppUITests.framework */,
+				544762FA2BC03476D5569EEF /* Pods_AutoServiceAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FBB521E229DEFD5200362267 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				FBB5220729DEFD5700362267 /* AutoServiceAppTests */,
 				FBB5221129DEFD5700362267 /* AutoServiceAppUITests */,
 				FBB521EC29DEFD5200362267 /* Products */,
+				5ADA45B221A3D387CD32748E /* Pods */,
+				6EB6CD53992515760D715B50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,8 +143,8 @@
 			children = (
 				FBB521EE29DEFD5200362267 /* AppDelegate.swift */,
 				FBB521F029DEFD5200362267 /* SceneDelegate.swift */,
-				FBB521F229DEFD5200362267 /* ViewController.swift */,
-				FBB521F429DEFD5200362267 /* Main.storyboard */,
+				FBB521F229DEFD5200362267 /* AuthViewController.swift */,
+				FBB5222129DF10B800362267 /* Extensions.swift */,
 				FBB521FA29DEFD5600362267 /* Assets.xcassets */,
 				FBB521FC29DEFD5600362267 /* LaunchScreen.storyboard */,
 				FBB521FF29DEFD5600362267 /* Info.plist */,
@@ -137,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBB5221829DEFD5700362267 /* Build configuration list for PBXNativeTarget "AutoServiceApp" */;
 			buildPhases = (
+				CF6A5787E3AA22D21FA17FEB /* [CP] Check Pods Manifest.lock */,
 				FBB521E729DEFD5200362267 /* Sources */,
 				FBB521E829DEFD5200362267 /* Frameworks */,
 				FBB521E929DEFD5200362267 /* Resources */,
+				C6B4DA4278B24823D7A6A376 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBB5221B29DEFD5700362267 /* Build configuration list for PBXNativeTarget "AutoServiceAppTests" */;
 			buildPhases = (
+				FBD26133ECC7039408244736 /* [CP] Check Pods Manifest.lock */,
 				FBB5220029DEFD5700362267 /* Sources */,
 				FBB5220129DEFD5700362267 /* Frameworks */,
 				FBB5220229DEFD5700362267 /* Resources */,
@@ -172,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBB5221E29DEFD5700362267 /* Build configuration list for PBXNativeTarget "AutoServiceAppUITests" */;
 			buildPhases = (
+				6ED6273E901AA711E6A96DD9 /* [CP] Check Pods Manifest.lock */,
 				FBB5220A29DEFD5700362267 /* Sources */,
 				FBB5220B29DEFD5700362267 /* Frameworks */,
 				FBB5220C29DEFD5700362267 /* Resources */,
+				9388B7DA4CA090545B97ABA1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -236,7 +281,6 @@
 			files = (
 				FBB521FE29DEFD5600362267 /* LaunchScreen.storyboard in Resources */,
 				FBB521FB29DEFD5600362267 /* Assets.xcassets in Resources */,
-				FBB521F629DEFD5200362267 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,13 +300,117 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6ED6273E901AA711E6A96DD9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoServiceApp-AutoServiceAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9388B7DA4CA090545B97ABA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutoServiceApp-AutoServiceAppUITests/Pods-AutoServiceApp-AutoServiceAppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutoServiceApp-AutoServiceAppUITests/Pods-AutoServiceApp-AutoServiceAppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutoServiceApp-AutoServiceAppUITests/Pods-AutoServiceApp-AutoServiceAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6B4DA4278B24823D7A6A376 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutoServiceApp/Pods-AutoServiceApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AutoServiceApp/Pods-AutoServiceApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AutoServiceApp/Pods-AutoServiceApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF6A5787E3AA22D21FA17FEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoServiceApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBD26133ECC7039408244736 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AutoServiceAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FBB521E729DEFD5200362267 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBB521F329DEFD5200362267 /* ViewController.swift in Sources */,
+				FBB521F329DEFD5200362267 /* AuthViewController.swift in Sources */,
 				FBB521EF29DEFD5200362267 /* AppDelegate.swift in Sources */,
+				FBB5222229DF10B800362267 /* Extensions.swift in Sources */,
 				FBB521F929DEFD5200362267 /* AutoServiceApp.xcdatamodeld in Sources */,
 				FBB521F129DEFD5200362267 /* SceneDelegate.swift in Sources */,
 			);
@@ -301,14 +449,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FBB521F429DEFD5200362267 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBB521F529DEFD5200362267 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FBB521FC29DEFD5600362267 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -436,6 +576,7 @@
 		};
 		FBB5221929DEFD5700362267 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEFE67E19DB4E007DE44E0F3 /* Pods-AutoServiceApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,7 +587,6 @@
 				INFOPLIST_FILE = AutoServiceApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -464,6 +604,7 @@
 		};
 		FBB5221A29DEFD5700362267 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C26F07AFF66B281772ABE3B3 /* Pods-AutoServiceApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,7 +615,6 @@
 				INFOPLIST_FILE = AutoServiceApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -492,6 +632,7 @@
 		};
 		FBB5221C29DEFD5700362267 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEEFC8BD9510DA13BCD584F1 /* Pods-AutoServiceAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +653,7 @@
 		};
 		FBB5221D29DEFD5700362267 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2831F06393271B966391B54 /* Pods-AutoServiceAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +674,7 @@
 		};
 		FBB5221F29DEFD5700362267 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 213D1DFF7AA80ECDEBC3C212 /* Pods-AutoServiceApp-AutoServiceAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +693,7 @@
 		};
 		FBB5222029DEFD5700362267 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9908331AE420E7279775B8F5 /* Pods-AutoServiceApp-AutoServiceAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
